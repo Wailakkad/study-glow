@@ -9,11 +9,36 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: "#E8A4B8",
+          dark: "#D4789A",
+        },
+        secondary: {
+          DEFAULT: "#C9B8D8",
+          dark: "#A89BC2",
+        },
+        accent: {
+          DEFAULT: "#F5EDD6",
+          dark: "#EDE0C4",
+        },
+        dark: {
+          DEFAULT: "#1A1A2E",
+          dark: "#16213E",
+        },
+        text: "#2D2D2D",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
+        serif: ["var(--font-playfair)", "serif"],
+        accent: ["var(--font-caveat)", "cursive"],
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;
