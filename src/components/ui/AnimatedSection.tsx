@@ -8,6 +8,7 @@ interface AnimatedSectionProps {
   delay?: number;
   direction?: "up" | "down" | "left" | "right";
   className?: string;
+  id?: string;
 }
 
 export default function AnimatedSection({
@@ -15,6 +16,7 @@ export default function AnimatedSection({
   delay = 0,
   direction = "up",
   className = "",
+  id,
 }: AnimatedSectionProps) {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-10% 0px" });
@@ -39,6 +41,7 @@ export default function AnimatedSection({
   return (
     <motion.div
       ref={ref}
+      id={id}
       initial={variants.initial}
       animate={isInView ? variants.animate : variants.initial}
       transition={{ duration: 0.6, ease: "easeOut", delay }}
