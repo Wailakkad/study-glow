@@ -138,7 +138,7 @@ export default function FreePlannerPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection direction="up" className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-dark mb-4">
-              What's Inside Your Free Planner 📋
+              What&apos;s Inside Your Free Planner 📋
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
               6 carefully designed pages to organize every aspect of your student life

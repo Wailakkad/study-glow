@@ -96,7 +96,7 @@ export default function AboutPage() {
 
         {/* WHAT WE OFFER SECTION */}
         <AnimatedSection direction="up">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-dark mb-12 text-center">What You'll Find at Study Glow</h2>
+          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-dark mb-12 text-center">What You&apos;ll Find at Study Glow</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: '📅', text: 'Free Printable Study Planners', link: '/category/study-planners' },
@@ -122,10 +122,10 @@ export default function AboutPage() {
           <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-8 relative z-10">Made for Students, By Students</h2>
           <div className="prose prose-lg prose-invert mx-auto relative z-10">
             <p>
-              The Study Glow team is a passionate collective of current students, recent graduates, and education enthusiasts. We've been through the all-nighters, the exam anxiety, and the struggle of trying to stay organized when deadlines pile up.
+              The Study Glow team is a passionate collective of current students, recent graduates, and education enthusiasts. We&apos;ve been through the all-nighters, the exam anxiety, and the struggle of trying to stay organized when deadlines pile up.
             </p>
             <p className="mt-6">
-              We channel our experiences into creating the exact resources we wished we had during our toughest semesters. Whether you're a high school freshman navigating new responsibilities or a university senior working on your thesis, our team is here to support your journey every step of the way.
+              We channel our experiences into creating the exact resources we wished we had during our toughest semesters. Whether you&apos;re a high school freshman navigating new responsibilities or a university senior working on your thesis, our team is here to support your journey every step of the way.
             </p>
           </div>
         </AnimatedSection>

@@ -1,6 +1,5 @@
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import ContactForm from "./ContactForm";
-import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,7 +19,7 @@ export default function ContactPage() {
               Contact Us ✨
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              We're always excited to connect with fellow students, creators, and brands.
+              We&apos;re always excited to connect with fellow students, creators, and brands.
             </p>
           </AnimatedSection>
         </div>
@@ -33,7 +32,7 @@ export default function ContactPage() {
           <AnimatedSection direction="right" className="w-full lg:w-[45%]">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-dark mb-6">Get in Touch</h2>
             <p className="text-gray-500 text-lg mb-12 leading-relaxed">
-              We love hearing from students! Whether you have a question, want to collaborate, or just want to share your study progress — we're here.
+              We love hearing from students! Whether you have a question, want to collaborate, or just want to share your study progress — we&apos;re here.
             </p>
 
             <div className="space-y-8 mb-16">

@@ -13,7 +13,7 @@ export default function ContactForm() {
     return (
       <div className="bg-primary/10 border-2 border-primary/20 rounded-[2rem] p-12 text-center animate-in fade-in duration-700 h-full flex flex-col justify-center items-center shadow-md">
         <div className="text-7xl mb-6">💕</div>
-        <h3 className="text-3xl font-serif font-bold text-dark mb-4">Thanks! We'll be in touch soon</h3>
+        <h3 className="text-3xl font-serif font-bold text-dark mb-4">Thanks! We&apos;ll be in touch soon</h3>
         <p className="text-gray-600 text-lg mb-8 max-w-sm">Your message has been safely received by our team.</p>
         <button 
           onClick={() => setStatus("idle")} 
