@@ -51,6 +51,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Adsterra Popunder Script */}
+        <script async src="https://pl29205606.profitablecpmratenetwork.com/ce/be/5f/cebe5ff06038bd2a9261243da11a9adf.js"></script>
+
         {/* Google Analytics 4 Script - Add your tracking ID here */}
         {/* 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>

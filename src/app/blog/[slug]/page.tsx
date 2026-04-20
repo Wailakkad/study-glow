@@ -12,6 +12,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 import { Metadata } from "next";
 import { JsonLd } from "@/components/ui/JsonLd";
 import DownloadButton from "@/components/ui/DownloadButton";
+import AdBanner from "@/components/ads/AdBanner";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -81,13 +82,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     ]
   };
 
-  const adPlaceholder = (label: string) => (
-    <div className="my-12 flex flex-col justify-center min-h-[250px] bg-gray-50/80 border-[2px] border-dashed border-gray-200 rounded-xl items-center relative overflow-hidden group">
-      {/* GOOGLE ADSENSE AD UNIT — Replace with actual ad code after approval */}
-      <span className="text-gray-400 text-xs font-bold tracking-[0.2em] uppercase mb-3">Advertisement</span>
-      <span className="text-gray-400 text-xs text-center px-4">({label})<br/>AdSense placeholder block</span>
-    </div>
-  );
+
 
   return (
     <>
@@ -169,11 +164,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 prose-code:bg-pink-50 prose-code:text-pink-600 prose-code:px-2 prose-code:py-1 prose-code:rounded-md prose-code:text-sm prose-code:before:content-none prose-code:after:content-none"
               >
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{part1}</ReactMarkdown>
-                {adPlaceholder("Top Ad Slot")}
+                <AdBanner />
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{part2}</ReactMarkdown>
-                {adPlaceholder("Middle Ad Slot")}
+                <AdBanner />
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{part3}</ReactMarkdown>
-                {adPlaceholder("Bottom Ad Slot")}
+                <AdBanner />
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{part4}</ReactMarkdown>
               </AnimatedSection>
 
@@ -245,6 +240,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                     ✓ Instant download &nbsp;•&nbsp; ✓ No email needed
                   </p>
                 </div>
+
+                {/* Adsterra Sidebar Ad */}
+                <AdBanner />
 
                 {/* Related Posts */}
                 {relatedPosts.length > 0 && (
