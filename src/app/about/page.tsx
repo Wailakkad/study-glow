@@ -42,7 +42,7 @@ export default function AboutPage() {
                 We started this platform because we noticed a missing link in traditional academic advice. While everyone tells you <em>what</em> to study, very few show you <em>how</em> to study in a way that feels sustainable, aesthetic, and genuinely motivating. Your workspace and tools should spark joy and drive focus.
               </p>
               <p>
-                Our mission is simple: to provide high-quality, scientifically-backed study methods wrapped in beautiful design — entirely for free. We're committed to breaking down academic overwhelm and replacing it with structured planners, real talk, and a community of students dedicated to their academic glow up.
+                Our mission is simple: to provide high-quality, scientifically-backed study methods wrapped in beautiful design — entirely for free. We&apos;re committed to breaking down academic overwhelm and replacing it with structured planners, real talk, and a community of students dedicated to their academic glow up.
               </p>
             </div>
           </AnimatedSection>
@@ -79,7 +79,7 @@ export default function AboutPage() {
             <div className="bg-white border border-gray-100 rounded-[2rem] p-10 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300">
               <div className="text-6xl mb-6 drop-shadow-sm">🆓</div>
               <h3 className="text-xl font-bold text-dark mb-4">Free Forever</h3>
-              <p className="text-gray-500 leading-relaxed">Access to premium academic tools shouldn't cost money. All our planners and resources are always free.</p>
+              <p className="text-gray-500 leading-relaxed">Access to premium academic tools shouldn&apos;t cost money. All our planners and resources are always free.</p>
             </div>
             <div className="bg-white border border-gray-100 rounded-[2rem] p-10 text-center shadow-lg hover:-translate-y-2 transition-transform duration-300">
               <div className="text-6xl mb-6 drop-shadow-sm">🎓</div>
