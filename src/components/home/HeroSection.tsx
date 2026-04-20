@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Link from "next/link";
 import DownloadButton from "@/components/ui/DownloadButton";
 
@@ -8,7 +8,7 @@ export default function HeroSection() {
   const headline = "Study Smarter, Glow Brighter.";
   const words = headline.split(" ");
 
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -16,7 +16,7 @@ export default function HeroSection() {
     },
   };
 
-  const wordAnim = {
+  const wordAnim: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
   };
