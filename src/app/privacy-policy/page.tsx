@@ -40,9 +40,9 @@ export default function PrivacyPolicyPage() {
             <h2>4. Cookies Policy</h2>
             <p>Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site.</p>
             <ul>
-              <li><strong>Google AdSense Cookies:</strong> Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</li>
+              <li><strong>Google AdSense Cookies:</strong> Third party vendors, including Google, use cookies to serve ads based on a user&apos;s prior visits to this website or other websites. Google&apos;s use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</li>
               <li><strong>Google Analytics Cookies:</strong> Used to track website traffic and user engagement anonymously.</li>
-              <li><strong>Opting Out:</strong> Users may opt out of personalized advertising by visiting <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Ads Settings</a>. Alternatively, you can opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>.</li>
+              <li><strong>Opting Out:</strong> Users may opt out of personalized advertising by visiting <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Ads Settings</a>. Alternatively, you can opt out of a third-party vendor&apos;s use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>.</li>
             </ul>
 
             <h2>5. Third-Party Services</h2>
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
             <h2>7. Your Rights (GDPR)</h2>
             <p>For visitors from the European Economic Area (EEA), under the General Data Protection Regulation (GDPR), you have the right to request access to, correction of, or erasure of your personal data. You also have the right to object to processing of your personal data or ask for restriction of processing. Contact us directly to exercise these rights.</p>
 
-            <h2>8. Children's Privacy</h2>
+            <h2>8. Children&apos;s Privacy</h2>
             <p>Our website and services are not directed at individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected information from a child under 13 without verifiable parental consent, we will take steps to remove that information from our servers.</p>
 
             <h2>9. Changes to This Policy</h2>

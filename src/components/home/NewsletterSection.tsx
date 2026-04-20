@@ -47,7 +47,7 @@ export default function NewsletterSection() {
             </form>
           ) : (
             <div className="bg-primary/20 border border-primary/30 p-6 rounded-xl max-w-lg mx-auto text-white">
-              <h3 className="text-xl font-bold text-primary mb-2">You're in! 🎉</h3>
+              <h3 className="text-xl font-bold text-primary mb-2">You&apos;re in! 🎉</h3>
               <p className="text-sm">Check your inbox, your free study planner is on the way.</p>
             </div>
           )}

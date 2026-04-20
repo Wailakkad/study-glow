@@ -162,7 +162,7 @@ export default function BlogGrid({ posts, showFilters = false }: BlogGridProps) 
                   No posts found for this topic yet
                 </h3>
                 <p className="text-gray-500 text-lg max-w-md">
-                  We couldn't find any articles matching your search or filter. Try a different term or browse all posts.
+                  We couldn&apos;t find any articles matching your search or filter. Try a different term or browse all posts.
                 </p>
                 <button 
                   onClick={() => {setActiveCategory("All Posts"); setSearchQuery("");}}

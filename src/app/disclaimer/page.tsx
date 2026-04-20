@@ -29,11 +29,11 @@ export default function DisclaimerPage() {
             <h2>4. No Professional Advice</h2>
             <p>The study and academic productivity content on this site is not a substitute for professional academic advising, mental health counseling, or medical advice. The study tips, routines, and strategies shared are based on personal experience and general research. Always seek the advice of your academic advisor, counselor, or qualified mental health provider with any questions you may have regarding academic stress or performance.</p>
 
-            <h2>5. Accuracy and Updates</h2>
-            <p>While we strive to keep our content updated and accurate, academic standards and software tools (like Notion or app settings) change rapidly. We cannot guarantee that all information within our posts, planners, and templates remains perfectly up-to-date at all times. Use all templates and tips at your own risk and adapt them to your specific educational institution's requirements.</p>
+            <h2>Accuracy and Updates</h2>
+            <p>While we strive to keep our content updated and accurate, academic standards and software tools (like Notion or app settings) change rapidly. We cannot guarantee that all information within our posts, planners, and templates remains perfectly up-to-date at all times. Use all templates and tips at your own risk and adapt them to your specific educational institution&apos;s requirements.</p>
 
             <h2>Contact Us</h2>
-            <p>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at legal@studyglow.blog.</p>
+            <p>If you require any more information or have any questions about our site&apos;s disclaimer, please feel free to contact us by email at legal@studyglow.blog.</p>
           </div>
         </AnimatedSection>
       </div>

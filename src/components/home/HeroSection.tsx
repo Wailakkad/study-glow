@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import DownloadButton from "@/components/ui/DownloadButton";
 
 export default function HeroSection() {
