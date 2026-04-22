@@ -84,3 +84,6 @@ Completing your hardest task before your roommates are even awake provides an as
 Don't try to implement all of this tomorrow. If you usually wake up at 8:30 AM, setting an alarm for 5:30 AM will end in disaster. 
 
 Start small. Tomorrow, commit to just two things: drinking water before coffee, and not looking at your phone for the first 30 minutes. Once that becomes a habit, add the 10-minute walk. Build the routine brick by brick. By the time midterms arrive, you will have constructed an unshakable morning foundation for academic excellence.
+
+Also read: [Senior Year to College: Complete Graduation Guide 2026](/blog/senior-year-graduation-guide-2026)
+
