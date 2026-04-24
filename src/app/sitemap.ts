@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog',
     '/free-planner',
     '/blog/senior-year-graduation-guide-2026',
+    '/blog/student-council-campaign-poster-ideas',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
