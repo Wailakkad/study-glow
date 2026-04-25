@@ -5,7 +5,7 @@ date: "2026-04-24"
 category: "Student Motivation"
 tags: ["student council", "school campaign posters", "campaign poster design", "student government campaign ideas", "class president", "student motivation"]
 featured: false
-image: "/images/student-council-campaign-poster-ideas.jpg"
+image: "/images/posts/student-council-campaign-poster-ideas.jpg"
 author: "Study Glow"
 ---
 
